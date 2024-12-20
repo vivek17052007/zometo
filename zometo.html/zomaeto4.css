@@ -1,0 +1,52 @@
+#location {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto 60px;
+  }
+  #location-title {
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+  #location-title p {
+    font-size: 36px;
+    color: #363636;
+  }
+  #place-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  #place {
+    border: 1px solid #ebebeb;
+    padding: 12px 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 32%;
+    box-shadow: #1c1c1c opx 1.4px 2.8px;
+  }
+  #place-name h5 {
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #1c1c1c;
+    font-weight: 500;
+  }
+  #place-name p {
+    font-size: 16px;
+    color: #363636;
+    font-weight: 400;
+  }
+  #see-more {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+  }
+  #see-more p {
+    padding-right: 7px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+  }
